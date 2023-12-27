@@ -17,6 +17,13 @@ Understanding concepts from different types of Architectures such as N-Tier, Hex
 $ npm install
 ```
 
+## Run docker-compose
+
+```bash
+# set postgres database image
+$ docker-compose up -d
+```
+
 ## Running the app
 
 ```bash
