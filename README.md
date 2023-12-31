@@ -53,7 +53,7 @@ $ npm run test:cov
 ## TODO
 
 - [x] Hexagonal Architecture on alarms directory.
-- [ ] Add enviroment file.
+- [x] Add enviroment file.
 - [ ] Domain-Driven Design.
 - [ ] CQRS.
 - [ ] Event-Driven Architecture.

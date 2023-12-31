@@ -8,14 +8,12 @@ export class CoreModule {
     const imports =
       options.driver === 'orm'
         ? [
-            // We are going to hardcode the connection options for simplicity
-            // but you can use a configuration file or environment variables
             TypeOrmModule.forRoot({
               type: 'postgres',
-              host: 'localhost',
-              port: 5432,
-              password: 'pass123',
-              username: 'postgres',
+              host: process.env.DB_HOST,
+              port: parseInt(process.env.PORT) || 5432,
+              password: process.env.PASSWORD,
+              username: process.env.USERNAME,
               autoLoadEntities: true,
               synchronize: true,
             }),
