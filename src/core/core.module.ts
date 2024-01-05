@@ -11,9 +11,9 @@ export class CoreModule {
             TypeOrmModule.forRoot({
               type: 'postgres',
               host: process.env.DB_HOST,
-              port: parseInt(process.env.PORT) || 5432,
-              password: process.env.PASSWORD,
-              username: process.env.USERNAME,
+              port: parseInt(process.env.DB_PORT) || 5432,
+              password: process.env.DB_PASSWORD,
+              username: process.env.DB_USERNAME,
               autoLoadEntities: true,
               synchronize: true,
             }),
