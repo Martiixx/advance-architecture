@@ -1,1 +1,1 @@
-rs.iniatiate();
+rs.initiate();
