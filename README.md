@@ -54,10 +54,11 @@ $ npm run test:cov
 
 - [x] Hexagonal Architecture on alarms directory.
 - [x] Add enviroment file.
-- [ ] Domain-Driven Design.
-- [ ] CQRS.
-- [ ] Event-Driven Architecture.
-- [ ] Event sourcing
+- [x] Domain-Driven Design.
+- [x] CQRS.
+- [x] Event-Driven Architecture.
+- [x] Event sourcing
+- [ ] Sagas
 
 ## Curl Examples
 ```bash
